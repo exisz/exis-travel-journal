@@ -24,7 +24,9 @@ window.TRIPS = [
         weekday: "周日",
         title: "悉尼 → 皇后镇",
         items: [
-          { time: "07:20", type: "航班", title: "Virgin Australia VA161", detail: "悉尼 T1 起飞 · 12:20 抵达皇后镇", badge: "已出票" }
+          { time: "07:20", type: "航班", title: "Virgin Australia VA161", detail: "悉尼 T1 起飞 · 12:20 抵达皇后镇", badge: "已出票" },
+          { time: "下午", type: "景点", title: "Deer Park Heights", detail: "落地后前往 · 自驾入园 · 当日 08:00–18:00 有效", badge: "已确认" },
+          { time: "", type: "预订信息", title: "Deer Park Heights Admission", detail: "预订号 FBAE2C62 · PIN 262422" }
         ]
       },
       {
