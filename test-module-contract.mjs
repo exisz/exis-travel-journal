@@ -9,7 +9,7 @@ const [html, app, moduleSource, sdk] = await Promise.all([
 ]);
 
 assert.match(html, /<script src="world-bootstrap\.js\?v=/);
-assert.match(html, /<script src="module\.js\?v=/);
+assert.match(html, /<script type="module" src="module\.js\?v=/);
 assert.match(app, /data-world-kind="trip"/);
 assert.match(app, /data-world-kind="day"/);
 assert.match(moduleSource, /window\.WorldModuleSdk/);
