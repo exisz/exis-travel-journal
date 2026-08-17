@@ -1,5 +1,4 @@
-import { world } from "./world-sdk/index.js";
-
+const { world } = window.WorldModuleSdk;
 const trips = window.TRIPS || [];
 let disposers = [];
 let connected = false;

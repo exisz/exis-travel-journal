@@ -5,12 +5,14 @@ const [html, app, moduleSource, sdk] = await Promise.all([
   readFile(new URL("./index.html", import.meta.url), "utf8"),
   readFile(new URL("./app.js", import.meta.url), "utf8"),
   readFile(new URL("./module.js", import.meta.url), "utf8"),
-  readFile(new URL("./world-sdk/index.js", import.meta.url), "utf8"),
+  readFile(new URL("./world-bootstrap.js", import.meta.url), "utf8"),
 ]);
 
-assert.match(html, /type="module" src="module\.js\?v=/);
+assert.match(html, /<script src="world-bootstrap\.js\?v=/);
+assert.match(html, /<script src="module\.js\?v=/);
 assert.match(app, /data-world-kind="trip"/);
 assert.match(app, /data-world-kind="day"/);
+assert.match(moduleSource, /window\.WorldModuleSdk/);
 assert.match(moduleSource, /world\.connect\(\)/);
 assert.match(moduleSource, /world\.makeReferenceDraggable/);
 assert.match(moduleSource, /world\.addReference/);
