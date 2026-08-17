@@ -5,7 +5,7 @@ const esc = (value = "") => String(value).replace(/[&<>'"]/g, c => ({"&":"&amp;"
 
 function tripCard(trip, index) {
   return `
-    <a class="trip-card ${esc(trip.accent)}" href="#/trip/${encodeURIComponent(trip.id)}" style="--delay:${index * 80}ms">
+    <a class="trip-card ${esc(trip.accent)}" href="#/trip/${encodeURIComponent(trip.id)}" style="--delay:${index * 80}ms" data-world-kind="trip" data-trip-id="${esc(trip.id)}">
       <img src="${esc(trip.hero)}" alt="${esc(trip.destination)}" loading="${index ? "lazy" : "eager"}">
       <div class="card-shade"></div>
       <div class="card-top"><span class="status">${esc(trip.status)}</span><span class="arrow">↗</span></div>
@@ -55,7 +55,7 @@ function renderDetail(id) {
       <div class="section-heading"><span>DAILY PLAN</span><h2>详细行程</h2></div>
       <div class="timeline">
         ${trip.days.map((day, i) => `
-          <article class="day" style="--delay:${i * 60}ms">
+          <article class="day" style="--delay:${i * 60}ms" data-world-kind="day" data-trip-id="${esc(trip.id)}" data-day-index="${i}">
             <div class="day-date"><strong>${esc(day.date)}</strong><span>${esc(day.weekday)}</span></div>
             <div class="day-content">
               <h3>${esc(day.title)}</h3>
@@ -81,6 +81,7 @@ function route() {
   const match = location.hash.match(/^#\/trip\/([^/]+)$/);
   match ? renderDetail(decodeURIComponent(match[1])) : renderHome();
   window.scrollTo(0, 0);
+  window.dispatchEvent(new CustomEvent("travel:rendered"));
 }
 
 window.addEventListener("hashchange", route);
