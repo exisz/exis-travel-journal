@@ -1,4 +1,4 @@
-const { world } = window.WorldModuleSdk;
+const travelWorld = window.WorldModuleSdk.world;
 const trips = window.TRIPS || [];
 let disposers = [];
 let connected = false;
@@ -73,7 +73,7 @@ async function installReferences() {
       event.stopPropagation();
       setButtonState(button, "正在引用…", "loading");
       try {
-        await world.addReference(reference);
+        await travelWorld.addReference(reference);
         setButtonState(button, "已引用到 AI", "success");
         window.setTimeout(() => setButtonState(button, "拖到 AI · 点击引用"), 1800);
       } catch (reason) {
@@ -83,7 +83,7 @@ async function installReferences() {
     });
     element.append(button);
 
-    const disposeDrag = await world.makeReferenceDraggable(element, reference, {
+    const disposeDrag = await travelWorld.makeReferenceDraggable(element, reference, {
       onReferenced: () => setButtonState(button, "已引用到 AI", "success"),
       onError: () => setButtonState(button, "引用失败", "error"),
     });
@@ -94,13 +94,13 @@ async function installReferences() {
   }
 }
 
-world.connect().then(() => {
+travelWorld.connect().then(() => {
   connected = true;
   document.documentElement.classList.add("world-connected");
   void installReferences();
 }).catch((reason) => {
   console.error(reason);
-  world.reportStartupFailure({
+  travelWorld.reportStartupFailure({
     stage: "dependency-load",
     code: "travel-reference-bootstrap-failed",
     message: "Travel Journal could not connect its references to World.",
