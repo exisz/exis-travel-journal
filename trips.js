@@ -41,6 +41,7 @@ window.TRIPS = [
         title: "皇后镇 · Skyline · Arthurs Point",
         items: [
           { time: "16:30", type: "体验", title: "Skyline Queenstown", detail: "缆车 + Premium Dinner + 3次 Luge · 2位成人", badge: "已付款" },
+          { time: "", type: "导航停车", title: "Skyline 最近停车点", detail: "Google Maps：53 Brecon Street, Queenstown 9300 · 沿 Brecon St 向上开，道路两侧可免费停车4小时" },
           { time: "", type: "预订信息", title: "Skyline · 已预订", detail: "收据号 109626798 · NZ$426" },
           { time: "20:45", type: "体验", title: "Onsen Hot Pools", detail: "Original Onsen 私汤 · 21:00 开始 · 2位成人", badge: "已确认" },
           { time: "", type: "预订信息", title: "Original Onsen · 已预订", detail: "160 Arthurs Point Road · NZ$180" }
