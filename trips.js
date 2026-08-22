@@ -28,30 +28,40 @@ window.TRIPS = [
           { time: "13:30", type: "租车", title: "Apex 皇后镇机场取车", detail: "Nissan X-Trail AWD 或同级 · 6天 · NZ$868.08 · 机场接驳至 32 Lucas Place", badge: "已确认" },
           { time: "", type: "取车指引", title: "Apex 免费接驳车", detail: "取行李后点击邮件内 Ready to Collect，或致电 0800 304 300；出航站楼右转前往出发区接驳点" },
           { time: "下午", type: "景点", title: "Deer Park Heights", detail: "落地后前往 · 自驾入园 · 当日 08:00–18:00 有效", badge: "已确认" },
-          { time: "", type: "预订信息", title: "Deer Park Heights Admission", detail: "预订号 FBAE2C62 · PIN 262422" }
+          { time: "", type: "预订信息", title: "Deer Park Heights Admission", detail: "预订号 FBAE2C62 · PIN 262422" },
+          { time: "晚上", type: "体验", title: "Queenstown Ice Bar", detail: "当天下午根据抵达及 Deer Park 进度确定具体场次", badge: "待定时间" }
         ]
       },
       {
         date: "8月24日",
         weekday: "周一",
-        title: "皇后镇",
-        items: [{ time: "全天", type: "自由活动", title: "行程待安排", detail: "新的预订和活动会更新在这里" }]
+        title: "皇后镇 → Glenorchy",
+        items: [
+          { time: "11:00", type: "餐饮", title: "午饭", detail: "餐厅待定" },
+          { time: "12:30", type: "自驾", title: "前往 Glenorchy", detail: "下午游览 Glenorchy；仅沿天气和路况允许的正式道路行驶" }
+        ]
       },
       {
         date: "8月25日",
         weekday: "周二",
         title: "皇后镇 · Skyline · Arthurs Point",
         items: [
+          { time: "10:00", type: "餐饮", title: "Brunch", detail: "餐厅待定" },
           { time: "11:00", type: "游船", title: "TSS Earnslaw 瓦卡蒂普湖巡游", detail: "RealNZ · 1.5小时 · 2位成人 · Steamer Wharf, Beach Street 集合", badge: "已确认" },
           { time: "", type: "预订信息", title: "GetYourGuide · 手机票已就绪", detail: "Ground Floor Front 与 TSS Earnslaw 蒸汽船会合 · A$198.36 · 建议穿防滑鞋" },
-          { time: "16:30", type: "体验", title: "Skyline Queenstown", detail: "缆车 + Premium Dinner + 3次 Luge · 2位成人", badge: "已付款" },
+          { time: "15:30", type: "体验", title: "抵达 Skyline · 缆车与 Luge", detail: "16:30晚餐入座；1小时完成缆车和3次Luge较赶，建议15:00抵达或晚餐后补完" },
+          { time: "16:30", type: "晚餐", title: "Stratosfare Premium Dinner", detail: "16:30是餐厅正式入座及开始用餐时间 · 套餐含缆车与3次Luge · 2位成人", badge: "已付款" },
           { time: "", type: "导航停车", title: "Skyline 最近停车点", detail: "Google Maps：53 Brecon Street, Queenstown 9300 · 沿 Brecon St 向上开，道路两侧可免费停车4小时" },
           { time: "", type: "预订信息", title: "Skyline · 已预订", detail: "收据号 109626798 · NZ$426" },
           { time: "20:45", type: "体验", title: "Onsen Hot Pools", detail: "Original Onsen 私汤 · 21:00 开始 · 2位成人", badge: "已确认" },
           { time: "", type: "预订信息", title: "Original Onsen · 已预订", detail: "160 Arthurs Point Road · NZ$180" }
         ]
       },
-      { date: "8月26日", weekday: "周三", title: "皇后镇", items: [{ time: "全天", type: "自由活动", title: "行程待安排", detail: "新的预订和活动会更新在这里" }] },
+      { date: "8月26日", weekday: "周三", title: "皇后镇 → Wānaka → Aoraki / Mount Cook", items: [
+        { time: "11:00", type: "餐饮", title: "午饭", detail: "用餐后尽快出发" },
+        { time: "下午", type: "景点", title: "That Wānaka Tree", detail: "短暂停留拍照，之后继续前往 Aoraki / Mount Cook" },
+        { time: "傍晚前", type: "徒步", title: "Tasman River Track", detail: "冬季长途驾驶，抵达可能接近日落；按路况、天气及剩余日照决定是否步行", badge: "注意日照" }
+      ] },
       { date: "8月27日", weekday: "周四", title: "Mount Cook · Tasman Glacier", items: [
         { time: "11:45", type: "体验", title: "Mount Cook 直升机冰川徒步", detail: "Tasman Glacier · 3小时 · 2位成人 · 英语", badge: "已确认" },
         { time: "", type: "预订信息", title: "GetYourGuide · 已预订", detail: "预订编号 GYG32LZ76HWB" }
