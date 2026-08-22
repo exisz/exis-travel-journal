@@ -70,9 +70,9 @@ window.TRIPS = [
       ] },
       { date: "8月27日", weekday: "周四", title: "Lake Tekapo → Mount Cook · Tasman Glacier", items: [
         { time: "10:00", type: "自驾", title: "从 Galaxy Boutique Hotel 出发", detail: "适用于26日已吃到三文鱼，直接前往冰川活动集合点" },
-        { time: "08:45", type: "备用", title: "若需补吃 Mt Cook Alpine Salmon", detail: "08:45离店 · 约09:25抵达 · 09:30–10:40慢慢用餐", badge: "仅备用" },
-        { time: "10:40", type: "自驾", title: "从 Salmon Shop 前往 Heli 集合点", detail: "车程约40分钟" },
-        { time: "约11:20", type: "抵达", title: "抵达冰川活动集合区域", detail: "距离11:45 check-in约25分钟" },
+        { time: "09:20", type: "备用", title: "若需补吃 Mt Cook Alpine Salmon", detail: "约09:20离店 · 10:00抵达 · 10:00–10:30用餐", badge: "仅备用" },
+        { time: "10:30", type: "自驾", title: "从 Salmon Shop 前往 Heli 集合点", detail: "车程约40分钟" },
+        { time: "约11:10", type: "抵达", title: "抵达冰川活动集合区域", detail: "距离11:45 check-in约35分钟" },
         { time: "11:45", type: "签到", title: "Mount Cook 直升机冰川徒步", detail: "按预订说明，11:45在已预约的 departure time 办理 check-in · 3小时 · 2位成人 · 英语", badge: "已确认" },
         { time: "", type: "预订信息", title: "GetYourGuide · 已预订", detail: "预订编号 GYG32LZ76HWB" }
       ] },
