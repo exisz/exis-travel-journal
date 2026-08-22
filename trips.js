@@ -63,14 +63,16 @@ window.TRIPS = [
         { time: "约13:15", type: "景点", title: "That Wānaka Tree", detail: "湖畔短暂停留拍照" },
         { time: "约14:30", type: "观景", title: "Lindis Pass Lookout", detail: "欣赏高山草甸与山谷，短暂停留" },
         { time: "约15:40", type: "餐饮", title: "Mt Cook Alpine Salmon", detail: "Lake Pukaki Visitor Centre, SH8 · 当前冬季营业至16:00", badge: "注意关门时间" },
-        { time: "之后", type: "观景", title: "Lake Pukaki · Peter’s Lookout", detail: "沿SH80前往 Aoraki / Mount Cook，按日照和天气短停" },
-        { time: "", type: "提醒", title: "26日不安排徒步", detail: "优先保证16:00前抵达 Alpine Salmon，并在天黑前继续前往住宿" }
+        { time: "之后", type: "观景", title: "Lake Pukaki · Peter’s Lookout", detail: "按日照和天气短停，之后前往 Lake Tekapo" },
+        { time: "入住", type: "酒店", title: "Galaxy Boutique Hotel", detail: "Lake Tekapo · 湖景豪华双人房 · 1间 · 连住2晚", badge: "已预订" },
+        { time: "", type: "提醒", title: "26日不安排徒步", detail: "优先保证16:00前抵达 Alpine Salmon，并在天黑前前往特卡波湖住宿" }
       ] },
       { date: "8月27日", weekday: "周四", title: "Mount Cook · Tasman Glacier", items: [
         { time: "11:45", type: "体验", title: "Mount Cook 直升机冰川徒步", detail: "Tasman Glacier · 3小时 · 2位成人 · 英语", badge: "已确认" },
         { time: "", type: "预订信息", title: "GetYourGuide · 已预订", detail: "预订编号 GYG32LZ76HWB" }
       ] },
-      { date: "8月28日", weekday: "周五", title: "Aoraki / Mount Cook", items: [
+      { date: "8月28日", weekday: "周五", title: "Lake Tekapo → Aoraki / Mount Cook", items: [
+        { time: "退房", type: "酒店", title: "Galaxy Boutique Hotel", detail: "结束2晚住宿，前往 Aoraki / Mount Cook" },
         { time: "待定", type: "徒步", title: "Tasman Lake and River Track", detail: "DOC官方：2.6公里往返，约50分钟 · Tasman Valley Road尽头停车场", badge: "看天气" },
         { time: "可选", type: "徒步", title: "Tasman Glacier View Track", detail: "同一区域约30分钟往返；冬季石阶可能结冰，出发前检查DOC路况" }
       ] },
