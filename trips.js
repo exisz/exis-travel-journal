@@ -58,15 +58,22 @@ window.TRIPS = [
         ]
       },
       { date: "8月26日", weekday: "周三", title: "皇后镇 → Wānaka → Aoraki / Mount Cook", items: [
-        { time: "11:00", type: "餐饮", title: "午饭", detail: "用餐后尽快出发" },
-        { time: "下午", type: "景点", title: "That Wānaka Tree", detail: "短暂停留拍照，之后继续前往 Aoraki / Mount Cook" },
-        { time: "傍晚前", type: "徒步", title: "Tasman River Track", detail: "冬季长途驾驶，抵达可能接近日落；按路况、天气及剩余日照决定是否步行", badge: "注意日照" }
+        { time: "11:00", type: "餐饮", title: "午饭", detail: "最迟12:00出发，沿途停靠均控制为短停" },
+        { time: "约12:25", type: "观景", title: "Crown Range Lookout", detail: "仅在道路、天气和停车安全时短暂停留" },
+        { time: "约13:15", type: "景点", title: "That Wānaka Tree", detail: "湖畔短暂停留拍照" },
+        { time: "约14:30", type: "观景", title: "Lindis Pass Lookout", detail: "欣赏高山草甸与山谷，短暂停留" },
+        { time: "约15:40", type: "餐饮", title: "Mt Cook Alpine Salmon", detail: "Lake Pukaki Visitor Centre, SH8 · 当前冬季营业至16:00", badge: "注意关门时间" },
+        { time: "之后", type: "观景", title: "Lake Pukaki · Peter’s Lookout", detail: "沿SH80前往 Aoraki / Mount Cook，按日照和天气短停" },
+        { time: "", type: "提醒", title: "26日不安排徒步", detail: "优先保证16:00前抵达 Alpine Salmon，并在天黑前继续前往住宿" }
       ] },
       { date: "8月27日", weekday: "周四", title: "Mount Cook · Tasman Glacier", items: [
         { time: "11:45", type: "体验", title: "Mount Cook 直升机冰川徒步", detail: "Tasman Glacier · 3小时 · 2位成人 · 英语", badge: "已确认" },
         { time: "", type: "预订信息", title: "GetYourGuide · 已预订", detail: "预订编号 GYG32LZ76HWB" }
       ] },
-      { date: "8月28日", weekday: "周五", title: "皇后镇", items: [{ time: "全天", type: "自由活动", title: "行程待安排", detail: "新的预订和活动会更新在这里" }] },
+      { date: "8月28日", weekday: "周五", title: "Aoraki / Mount Cook", items: [
+        { time: "待定", type: "徒步", title: "Tasman Lake and River Track", detail: "DOC官方：2.6公里往返，约50分钟 · Tasman Valley Road尽头停车场", badge: "看天气" },
+        { time: "可选", type: "徒步", title: "Tasman Glacier View Track", detail: "同一区域约30分钟往返；冬季石阶可能结冰，出发前检查DOC路况" }
+      ] },
       {
         date: "8月29日",
         weekday: "周六",
