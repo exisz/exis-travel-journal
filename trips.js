@@ -42,6 +42,7 @@ window.TRIPS = [
         items: [
           { time: "11:00", type: "游船", title: "TSS Earnslaw 瓦卡蒂普湖巡游", detail: "RealNZ · 1.5小时 · 2位成人 · Steamer Wharf, Beach Street 集合", badge: "已确认" },
           { time: "", type: "预订信息", title: "GetYourGuide · 手机票已就绪", detail: "Ground Floor Front 与 TSS Earnslaw 蒸汽船会合 · A$198.36 · 建议穿防滑鞋" },
+          { time: "14:00", type: "租车", title: "Budget 皇后镇机场取车", detail: "租期4天 · 8月29日14:00于基督城机场还车 · 订单号 1128150221198532", badge: "已预订" },
           { time: "16:30", type: "体验", title: "Skyline Queenstown", detail: "缆车 + Premium Dinner + 3次 Luge · 2位成人", badge: "已付款" },
           { time: "", type: "导航停车", title: "Skyline 最近停车点", detail: "Google Maps：53 Brecon Street, Queenstown 9300 · 沿 Brecon St 向上开，道路两侧可免费停车4小时" },
           { time: "", type: "预订信息", title: "Skyline · 已预订", detail: "收据号 109626798 · NZ$426" },
@@ -60,6 +61,7 @@ window.TRIPS = [
         weekday: "周六",
         title: "皇后镇 → 悉尼",
         items: [
+          { time: "14:00", type: "租车", title: "Budget 基督城机场还车", detail: "⚠️ 与16:35皇后镇出发航班冲突：基督城与皇后镇相距约480公里", badge: "需处理" },
           { time: "16:35", type: "航班", title: "Qantas QF136", detail: "皇后镇起飞 · 18:10 抵达悉尼 T1", badge: "已出票" }
         ]
       }
