@@ -25,6 +25,8 @@ window.TRIPS = [
         title: "悉尼 → 皇后镇",
         items: [
           { time: "07:20", type: "航班", title: "Virgin Australia VA161", detail: "悉尼 T1 起飞 · 12:20 抵达皇后镇", badge: "已出票" },
+          { time: "13:30", type: "租车", title: "Apex 皇后镇机场取车", detail: "Nissan X-Trail AWD 或同级 · 6天 · NZ$868.08 · 机场接驳至 32 Lucas Place", badge: "已确认" },
+          { time: "", type: "取车指引", title: "Apex 免费接驳车", detail: "取行李后点击邮件内 Ready to Collect，或致电 0800 304 300；出航站楼右转前往出发区接驳点" },
           { time: "下午", type: "景点", title: "Deer Park Heights", detail: "落地后前往 · 自驾入园 · 当日 08:00–18:00 有效", badge: "已确认" },
           { time: "", type: "预订信息", title: "Deer Park Heights Admission", detail: "预订号 FBAE2C62 · PIN 262422" }
         ]
@@ -60,6 +62,7 @@ window.TRIPS = [
         weekday: "周六",
         title: "基督城 → 悉尼",
         items: [
+          { time: "13:30", type: "租车", title: "Apex 基督城还车", detail: "28 Ron Guthrey Road · 门店免费送至机场航站楼", badge: "已确认" },
           { time: "16:35", type: "航班", title: "Qantas QF136", detail: "基督城起飞 · 18:10 抵达悉尼 T1", badge: "已出票" }
         ]
       }
