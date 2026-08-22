@@ -63,14 +63,14 @@ window.TRIPS = [
         { time: "约13:15", type: "景点", title: "That Wānaka Tree", detail: "湖畔短暂停留拍照" },
         { time: "约14:30", type: "观景", title: "Lindis Pass Lookout", detail: "欣赏高山草甸与山谷，短暂停留" },
         { time: "15:30", type: "电话确认", title: "联系 Mount Cook 办公室确认 Heli Hike", detail: "必须在出发前一天17:00前完成 · +64 3 435 1801 · NZ SIM免费电话 0800 650 651 · 请停车后拨打", badge: "重要" },
-        { time: "约15:40", type: "餐饮", title: "Mt Cook Alpine Salmon", detail: "Lake Pukaki Visitor Centre, SH8 · 当前冬季营业至16:00；若错过则改为27日早上", badge: "注意关门时间" },
+        { time: "约15:40", type: "餐饮", title: "Mt Cook Alpine Salmon", detail: "Lake Pukaki Visitor Centre, SH8 · 当前冬季营业至16:00", badge: "注意关门时间" },
         { time: "之后", type: "观景", title: "Lake Pukaki · Peter’s Lookout", detail: "按日照和天气短停，之后前往 Lake Tekapo" },
         { time: "入住", type: "酒店", title: "Galaxy Boutique Hotel", detail: "Lake Tekapo · 湖景豪华双人房 · 1间 · 连住2晚", badge: "已预订" },
         { time: "", type: "提醒", title: "26日不安排徒步", detail: "优先保证16:00前抵达 Alpine Salmon，并在天黑前前往特卡波湖住宿" }
       ] },
       { date: "8月27日", weekday: "周四", title: "Lake Tekapo → Mount Cook · Tasman Glacier", items: [
-        { time: "10:00", type: "自驾", title: "从 Galaxy Boutique Hotel 出发", detail: "适用于26日已吃到三文鱼，直接前往冰川活动集合点" },
-        { time: "10:15", type: "备用", title: "Mt Cook Alpine Salmon", detail: "10:15抵达 · 10:15–10:45用餐", badge: "仅备用" },
+        { time: "09:25", type: "自驾", title: "从 Galaxy Boutique Hotel 出发", detail: "前往 Mt Cook Alpine Salmon · 正常约40分钟，另留10分钟冬季驾驶缓冲" },
+        { time: "10:15", type: "餐饮", title: "Mt Cook Alpine Salmon", detail: "10:15抵达 · 10:15–10:45用餐", badge: "固定行程" },
         { time: "10:45", type: "自驾", title: "从 Salmon Shop 前往 Heli 集合点", detail: "按计划10:45出发 · 车程约40分钟" },
         { time: "约11:25", type: "抵达", title: "抵达冰川活动集合区域", detail: "距离11:45 check-in约20分钟" },
         { time: "11:45", type: "签到", title: "Mount Cook 直升机冰川徒步", detail: "按预订说明，11:45在已预约的 departure time 办理 check-in · 3小时 · 2位成人 · 英语", badge: "已确认" },
