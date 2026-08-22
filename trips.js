@@ -25,9 +25,11 @@ window.TRIPS = [
         title: "悉尼 → 皇后镇",
         items: [
           { time: "07:20", type: "航班", title: "Virgin Australia VA161", detail: "悉尼 T1 起飞 · 12:20 抵达皇后镇", badge: "已出票" },
-          { time: "13:30", type: "租车", title: "Apex 皇后镇机场取车", detail: "Nissan X-Trail AWD 或同级 · 6天 · NZ$868.08 · 机场接驳至 32 Lucas Place", badge: "已确认" },
-          { time: "", type: "取车指引", title: "Apex 免费接驳车", detail: "取行李后点击邮件内 Ready to Collect，或致电 0800 304 300；出航站楼右转前往出发区接驳点" },
-          { time: "下午", type: "景点", title: "Deer Park Heights", detail: "落地后前往 · 自驾入园 · 当日 08:00–18:00 有效", badge: "已确认" },
+          { time: "约13:00", type: "租车", title: "Apex 皇后镇机场取车", detail: "无托运行李，落地后直接联系接驳；订单取车时间13:30，能否提前取决于车辆是否就绪", badge: "已确认" },
+          { time: "", type: "取车指引", title: "Apex 免费接驳车", detail: "点击邮件内 Ready to Collect，或致电 0800 304 300；出航站楼右转前往出发区接驳点 · 门店32 Lucas Place" },
+          { time: "约13:30", type: "餐饮", title: "皇后镇简单午餐", detail: "推荐：Erik’s Fish & Chips、Taco Medic、Devil Burger、Mrs Ferg Beach Street" },
+          { time: "午餐后", type: "酒店", title: "办理入住", detail: "放好行李后稍作休息" },
+          { time: "15:30–16:00", type: "自驾", title: "出发前往 Deer Park Heights", detail: "傍晚景观与日落；务必在18:00关门前离园", badge: "已确认" },
           { time: "", type: "预订信息", title: "Deer Park Heights Admission", detail: "预订号 FBAE2C62 · PIN 262422" },
           { time: "晚上", type: "体验", title: "Queenstown Ice Bar", detail: "当天下午根据抵达及 Deer Park 进度确定具体场次", badge: "待定时间" }
         ]
@@ -58,7 +60,7 @@ window.TRIPS = [
         ]
       },
       { date: "8月26日", weekday: "周三", title: "皇后镇 → Wānaka → Aoraki / Mount Cook", items: [
-        { time: "11:00", type: "餐饮", title: "午饭", detail: "最迟12:00出发，沿途停靠均控制为短停" },
+        { time: "10:30", type: "餐饮", title: "购买 Fergburger 外带", detail: "取餐后直接离开皇后镇；在安全休息点用餐，不耽误公路行程" },
         { time: "约12:25", type: "观景", title: "Crown Range Lookout", detail: "仅在道路、天气和停车安全时短暂停留" },
         { time: "约13:15", type: "景点", title: "That Wānaka Tree", detail: "湖畔短暂停留拍照" },
         { time: "约14:30", type: "观景", title: "Lindis Pass Lookout", detail: "欣赏高山草甸与山谷，短暂停留" },
