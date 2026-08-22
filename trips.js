@@ -16,7 +16,7 @@ window.TRIPS = [
     facts: [
       { label: "出发地", value: "悉尼" },
       { label: "同行", value: "2人" },
-      { label: "已确认", value: "航班 · 温泉" }
+      { label: "已确认", value: "航班 · 游船 · 温泉" }
     ],
     days: [
       {
@@ -40,6 +40,8 @@ window.TRIPS = [
         weekday: "周二",
         title: "皇后镇 · Skyline · Arthurs Point",
         items: [
+          { time: "11:00", type: "游船", title: "TSS Earnslaw 瓦卡蒂普湖巡游", detail: "RealNZ · 1.5小时 · 2位成人 · Steamer Wharf, Beach Street 集合", badge: "已确认" },
+          { time: "", type: "预订信息", title: "GetYourGuide · 手机票已就绪", detail: "Ground Floor Front 与 TSS Earnslaw 蒸汽船会合 · A$198.36 · 建议穿防滑鞋" },
           { time: "16:30", type: "体验", title: "Skyline Queenstown", detail: "缆车 + Premium Dinner + 3次 Luge · 2位成人", badge: "已付款" },
           { time: "", type: "导航停车", title: "Skyline 最近停车点", detail: "Google Maps：53 Brecon Street, Queenstown 9300 · 沿 Brecon St 向上开，道路两侧可免费停车4小时" },
           { time: "", type: "预订信息", title: "Skyline · 已预订", detail: "收据号 109626798 · NZ$426" },
